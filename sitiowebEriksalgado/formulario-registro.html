@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registro de Usuario</title>
+    <style>
+        .logo-tecnico {
+      position: absolute;
+      top: 10px;
+      left:10px ;
+      width: 100px;
+      height: auto;
+     }
+  </style>
+ 
+</head> 
+<body style="background-color: rgb(255, 208, 79);"> 
+    <img src="img/logo tecnico-nuevo.png" alt="logo-tecnico" class="logo-tecnico">
+  
+    <div style="display: flex; gap: 20px; border: 1px solid black; padding: 5px; width: fit-content; margin-left: auto;">
+      
+      <span style="border: 2px solid red; padding: 10px;">
+          <a href="index.html" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
+      </span>
+      <span style="border: 2px solid blue; padding: 10px;">
+          <a href="sobre la serie.html" style="text-decoration: none; color: rgb(255, 255, 255);">Sobre la serie</a>
+      </span>
+      <span style="border: 2px solid green; padding: 10px;">
+          <a href="personaje de la rueda del tiempo.html" style="text-decoration: none; color: rgb(255, 255, 255);">Personajes</a>
+      </span>
+      <span style="border: 2px solid purple; padding: 10px;">
+          <a href="mundo y magia.html" style="text-decoration: none; color: rgb(255, 246, 246);">Mundos y Magia</a>
+      </span>
+      <span style="border: 2px solid orange; padding: 10px;">
+          <a href="noticias y teorias.html" style="text-decoration: none; color: rgb(255, 248, 248);">Noticias y Teorías</a>
+      </span>
+  </div>
+  
+    <h1>Registro de usuario</h1> 
+    <form action="#" method="post"> 
+        <fieldset> 
+            <legend>Información Personal</legend> 
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre" name="nombre" required><br><br> 
+            <label for="apellido">Apellido:</label> 
+            <input type="text" id="apellido" name="apellido" required><br><br> 
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label> 
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br> 
+            <legend>Género:</legend> 
+            <input type="radio" id="masculino" name="genero" value="Masculino" required> 
+            <label for="masculino">Masculino</label><br> 
+            <input type="radio" id="femenino" name="genero" value="Femenino"> 
+            <label for="femenino">Femenino</label><br> 
+            <input type="radio" id="otro" name="genero" value="Otro"> 
+            <label for="otro">Otro</label><br><br> 
+        </fieldset> 
+        <fieldset> 
+            <legend>Información de Contacto</legend> 
+            <label for="email">Correo Electrónico:</label> 
+            <input type="email" id="email" name="email" required><br><br> 
+            <label for="telefono">Número de Teléfono:</label> 
+            <input type="tel" id="telefono" name="telefono" required><br><br> 
+            <label for="direccion">Dirección:</label><br> 
+            <textarea id="direccion" name="direccion" rows="4" cols="50"></textarea><br><br> 
+        </fieldset> 
+        
+        <fieldset>
+            <legend> preferencias </legend>
+            <label for ="ColorFavorito">Seleccionar tu temporada favorita</label>
+            <select id ="temporadafavorita" name="Temporada Favorita">
+                <option value="Rojo">Temporada 1</option>
+                <option value="Azul">Temporada 2</option>      
+                <option value="Amarillo">Temporada 3</option>
+             
+            </select><br><br>
+            <input type="checkbox" id="aceptarterminos" name="aceptarterminos" required>
+            <label for="aceptarterminos"> Acepto los terminos y condiciones </label><br><br>
+        </fieldset>
+        <input type="submit" value="Registrarse">
+    </form>
+    <center>
+    <footer class="footer">
+        <p>III BTP ROBOTICA S-9 | erik.salgado@tecnico-honduras.com   </p>
+      </footer>
+    </center>
+</body>
+</html>
+                

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LA RUEDA DEL TIEMPO </title>
+  
+  <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: #c0c0c0;
+            border-radius: 50%;
+        }
+
+        .trailers {
+            margin-top: 30px;
+        }
+
+        .trailers button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .trailers button:hover {
+            background-color: #ffaa00;
+        }
+
+        #trailer-container {
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+  
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .header {
+      background: linear-gradient(to right, #000000, #f7b046);
+      color: rgb(253, 253, 253);
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .banner img {
+      max-width: 100px;
+      margin-top: 10px;
+      
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-around;
+      background: #cacaca;
+      padding: 10px 0;
+    }
+
+    .nav-item {
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .section h2 {
+      color: #000000;
+      font-size: 1.5em;
+    }
+
+    .news {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .news-item {
+      width: 45%;
+      background: #fdff7c;
+      padding: 10px;
+      border: 1px solid #bb3030;
+      border-radius: 5px;
+    }
+
+    .news-item h3 {
+      color: #002f61;
+      font-size: 1.2em;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background: #000000;
+      color: rgb(250, 250, 250);
+    }
+     .logo-tecnico {
+      position: absolute;
+      top: 10px;
+      left:10px ;
+      width: 80px;
+      height: auto;
+     }
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            width: 280px;
+            border: 2px solid #666;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            background-color: #00329e;
+            color: #f8f8f8;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+  </style>
+</head>
+<body >
+  <img src="img/logo-tecnico.jpg" alt="logo-tecnico" class="logo-tecnico">
+  
+  <div style="display: flex; gap: 20px; border: 1px solid black; padding: 5px; width: fit-content; margin-left: auto;">
+    
+    <span style="border: 2px solid red; padding: 10px;">
+        <a href="inicio.html" style="text-decoration: none; color: rgb(255, 255, 255);">Inicio</a>
+    </span>
+    <span style="border: 2px solid blue; padding: 10px;">
+        <a href="sobre-nosotros.html" style="text-decoration: none; color: rgb(255, 255, 255);">Sobre la serie</a>
+    </span>
+    <span style="border: 2px solid green; padding: 10px;">
+        <a href="personajes.html" style="text-decoration: none; color: rgb(255, 255, 255);">Personajes</a>
+    </span>
+    <span style="border: 2px solid purple; padding: 10px;">
+        <a href="mundos-y-magia.html" style="text-decoration: none; color: rgb(255, 255, 255);">Mundos y Magia</a>
+    </span>
+    <span style="border: 2px solid orange; padding: 10px;">
+        <a href="noticias-y-teorias.html" style="text-decoration: none; color: rgb(255, 255, 255);">Noticias y Teorías</a>
+    </span>
+</div>
+
+  <header class="header">
+    
+    <div class="banner">
+      <h1>LA RUEDA DEL TIEMPO</h1>
+     <strong> <i><p>The Wheel of Time</p></i></strong>
+
+  </div>
+    </div>
+   
+  </header>
+  <div class="container">
+    <div class="circle">
+      <img src="img/logorueda.png" alt="Imagen" style="width: 100%; height: 100%; border-radius: 50%;">
+  </div>
+    <div class="circle">
+      <img src="img/logorueda.png" alt="Imagen" style="width: 100%; height: 100%; border-radius: 50%;">
+    </div>
+    <div class="circle">
+       <img src="img/logorueda.png" alt="Imagen" style="width: 100%; height: 100%; border-radius: 50%;">
+    </div>
+</div>
+
+<div class="trailers">
+    <button onclick="mostrarTrailer('temporada1')">Trailer Temporada 1</button>
+    <button onclick="mostrarTrailer('temporada2')">Trailer Temporada 2</button>
+    <button onclick="mostrarTrailer('temporada3')">Trailer Temporada 3</button>
+</div>
+
+<div id="trailer-container" class="hidden">
+    <iframe id="video" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    <p id="info"></p>
+</div>
+
+<script>
+    function mostrarTrailer(trailer) {
+        let video = document.getElementById("video");
+        let info = document.getElementById("info");
+        let container = document.getElementById("trailer-container");
+
+        let trailers = {
+            
+            "temporada1": {
+                url: "img/temporada1.mp4",
+                info: "Trailer oficial de la Temporada 1,"
+
+            },
+            "temporada2": {
+                url: "img/temporada2.mp4",
+                info: "Trailer de la Temporada 2"
+            },
+            "temporada3": {
+                url: "img/temporada 3.mp4",
+                info: "Trailer de la Temporada 3."
+            }
+        };
+
+        if (trailers[trailer]) {
+            video.src = trailers[trailer].url;
+            info.innerText = trailers[trailer].info;
+            container.classList.remove("hidden");
+        }
+    }
+</script>
+
+
+  <footer class="footer">
+    <p>III BTP ROBOTICA S-9 | erik.salgado@tecnico-honduras.com | <a href="formulario-rueda.html">Completa el formulario</a> </p>
+  </footer>
+</body>
+</html>
